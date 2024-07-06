@@ -10,7 +10,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    }
+.btn-container{
+    
+    text-align: center;
+}
+.btn{
+color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 450px;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+padding: 14px 18px 14px 18px;
+border-radius: 8px;
+background: rgb(82, 195, 3);
 }
 #hero .y{
     width: 1023px;
@@ -24,6 +38,7 @@ line-height: 38px;
 letter-spacing: 0%;
 text-align: center;
 opacity: 0.8;
+margin-bottom: 10px;
 }
 #hero .y .title{
     color: rgb(255, 255, 255);
@@ -32,6 +47,7 @@ font-weight: 700;
 line-height: 60px;
 letter-spacing: 0%;
 text-align: center;
+margin-bottom: 16px;
 }
 #hero .y .description{
     color: rgb(255, 255, 255);
@@ -41,4 +57,5 @@ line-height: 25px;
 letter-spacing: 0%;
 text-align: center;
 opacity: 0.7;
+margin-bottom: 18px;
 }
